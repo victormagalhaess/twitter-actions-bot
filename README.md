@@ -1,3 +1,5 @@
+![Python logo](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Twitter logo](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
 # Twitter actions bot built with Python3 and Tweepy
 An simple and easy to run Python3 twitter bot. It can search keywords, like, retweet and reply to tweets. Full configurable.
 
