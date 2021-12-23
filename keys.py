@@ -10,3 +10,6 @@ access_token = os.getenv('ACCESS_TOKEN')
 access_token_secret = os.getenv('ACCESS_TOKEN_SECRET')
 bearer = os.getenv('BEARER')
 greeting_message = os.getenv('GREETING_MESSAGE')
+should_like = os.getenv('LIKE').lower() == 'on'
+should_retweet = os.getenv('RETWEET').lower() == 'on'
+should_reply = os.getenv('REPLY').lower() == 'on'
