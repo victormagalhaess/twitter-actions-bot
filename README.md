@@ -1,7 +1,7 @@
 # Twitter actions bot built with Python3 and Tweepy
 An simple and easy to run Python3 twitter bot. It can search keywords, like, retweet and reply to tweets. Full configurable.
 
-## How to
+How to
 ----------
 
 This bot is built using [Tweepy](http://www.tweepy.org/), an library in python that encapsulates the work of using Twitter's api.
