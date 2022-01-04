@@ -5,7 +5,7 @@ def get(keys, client, max_results, start_time, blocked_ids):
         if(unparsed_tweet[0] != None):
             public_tweets += unparsed_tweet[0]
     for public_tweet in public_tweets:
-        if public_tweet.author_id in blocked_ids:
+        if public_tweet.author_id in blocked_ids or public_tweet.data['text'].startswith('RT'):
             public_tweets.remove(public_tweet)
     return public_tweets
 

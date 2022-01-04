@@ -2,7 +2,7 @@ import os
 import json
 
 max_results = int(os.getenv('MAX_RESULTS'))
-time_limit_hours = int(os.getenv('TIME_LIMIT_HOURS'))
+time_limit_hours = float(os.getenv('TIME_LIMIT_HOURS'))
 keywords_list = json.loads(os.environ['KEYWORDS_LIST'])
 consumer_key = os.getenv('CONSUMER_KEY')
 consumer_secret = os.getenv('CONSUMER_SECRET')
